@@ -1,0 +1,23 @@
+{
+    "name": "router-controller",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "keywords": [
+        "Jaravel"
+    ],
+    "author": "Sarfaraz <hey@m-sarfaraz.com>",
+    "license": "MIT",
+    "dependencies": {
+        "db-migrate": "^0.11.13",
+        "ejs": "^3.0.2",
+        "express": "^4.17.1",
+        "express-myconnection": "^1.0.4",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1"
+    }
+}
